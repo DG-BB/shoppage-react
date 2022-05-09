@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './assets/css/style.css';
+import './assets/css/navbar.css';
+import './assets/css/product.css';
+import './assets/css/product-bar.css';
+import './assets/css/popup.css';
+import './assets/css/cart.css';
+import './assets/css/image-previewer.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

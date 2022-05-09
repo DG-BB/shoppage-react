@@ -1,0 +1,45 @@
+:root {
+    --color-1: #B8B42D;
+    --color-2: #697A21;
+    --color-3: #FFFCE8;
+    --color-4: #3E363F;
+    --color-5: #DD403A;
+    --color-like: #ff0700;
+    --color-star: #FFA41C;
+    /*https://coolors.co/b8b42d-697a21-fffce8-3e363f-dd403a*/
+}
+
+body {
+    margin: 0;
+}
+
+.full-size {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    margin-top: 12px;
+}
+
+.layout-container {
+    padding: 12px 15%;
+}
+
+.vertical {
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.horizontal {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: start;
+}
+
+.hide {
+    display: none;
+}

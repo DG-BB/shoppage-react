@@ -1,0 +1,146 @@
+.product-container {
+    background-color: rgba(0, 0, 0, 0.05);
+    height: 100%;
+    padding: 12px;
+    position: relative;
+}
+
+.product-container p {
+    margin: 0;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-brand {
+    cursor: pointer;
+}
+
+.product-price {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.product-price-discount {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.product-price-old-price {
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.product-review {
+    cursor: pointer;;
+}
+
+.product-review .fa-star {
+    color: var(--color-star);
+}
+
+.product-container button {
+    width: 200px;
+    height: 30px;
+    border: 0;
+}
+
+.product-amount-container {
+    margin-right: 12px;
+}
+
+.product-amount-field {
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.product-amount-field::-webkit-outer-spin-button,
+.product-amount-field::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.product-amount-field[type=number] {
+    -moz-appearance: textfield;
+}
+
+.product-amount-add, .product-amount-remove {
+    width: 30px !important;
+    background-color: #c4c3c0;
+}
+
+.product-buy-button, .product-cart-button, .product-like-button {
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.product-buy-button {
+    background-color: var(--color-5);
+    color: var(--color-3);
+    font-weight: bold;
+    margin-right: 8px;
+    width: 188px;
+}
+
+.product-cart-button {
+    background-color: #ff8000;
+    color: var(--color-3);
+    width: 150px;
+}
+
+.product-cart-button:disabled {
+    background-color: #7c3e00;
+    color: var(--color-3);
+    cursor: not-allowed;
+}
+
+.product-like-button {
+    background-color: var(--color-4);
+    color: var(--color-3);
+    width: 75px !important;
+    position: absolute;
+    right: 0;
+}
+
+.product-like-button .like-icon {
+    margin-right: 5px;
+}
+
+.product-like-button[like="set"] {
+    background-color: var(--color-like);
+    color: var(--color-3);
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.75;
+}
+
+#overlay-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#overlay-image {
+    max-width: 75%;
+    max-height: 75%;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
