@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shoppage-react/static/css/main.f69d1dc1.css",
+    "main.js": "/shoppage-react/static/js/main.729f7d5c.js",
+    "static/js/787.6cabec93.chunk.js": "/shoppage-react/static/js/787.6cabec93.chunk.js",
+    "index.html": "/shoppage-react/index.html",
+    "main.f69d1dc1.css.map": "/shoppage-react/static/css/main.f69d1dc1.css.map",
+    "main.729f7d5c.js.map": "/shoppage-react/static/js/main.729f7d5c.js.map",
+    "787.6cabec93.chunk.js.map": "/shoppage-react/static/js/787.6cabec93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f69d1dc1.css",
+    "static/js/main.729f7d5c.js"
+  ]
+}
